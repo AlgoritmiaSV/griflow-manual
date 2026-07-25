@@ -1,9 +1,9 @@
-site_name: Services
-site_url: https://manuales.algoritmia.sv/services/
-site_description: Manual de usuario de Servicios
+site_name: Griflow
+site_url: https://manuales.algoritmia.sv/griflow/
+site_description: Manual de usuario de Griflow
 site_author: Edwin Fajardo
 copyright: Copyright &copy;2024-2026 Algoritmia SV
-site_dir: /store/bphp/manuals/services
+site_dir: /store/bphp/manuals/griflow
 nav:
   - Inicio: index.md
   - Usuario: usuario.md
@@ -35,4 +35,5 @@ markdown_extensions:
 plugins:
   - to-pdf:
       cover_subtitle: Sistema de facturación de servicio de agua potable
-      cover_logo: https://apps.rti.li/images/algoritmia_sv_logo.png
+      cover_logo: https://www.algoritmia.sv/images/logo.png
+      output_path: pdf/griflow-manual.pdf
